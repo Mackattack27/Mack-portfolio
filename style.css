@@ -71,6 +71,7 @@ img {
     width: 30vh;
     height: 20vh;
     margin: 0px 20px;
+    
 
 }
 
@@ -86,3 +87,28 @@ img {
     margin: 80px;
 }
 
+.img4 {
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+.img5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    color: red;
+
+}
+.proj:nth-child(n+1){
+    background-color: red;   
+}
